@@ -1,0 +1,42 @@
+[
+    {
+      "id": "Q1",
+      "topic": "Continuous Integration",
+      "question": "What is the main goal of Continuous Integration?",
+      "options": [
+        "Deploy code automatically to production",
+        "Frequently merge code changes into a shared repository",
+        "Eliminate testing",
+        "Remove the need for branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Integration focuses on regularly integrating code so problems are detected early."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control",
+      "question": "Which of the following is a benefit of using Git?",
+      "options": [
+        "It deletes old versions automatically",
+        "It tracks changes and enables collaboration",
+        "It prevents bugs entirely",
+        "It only works online"
+      ],
+      "answerIndex": 1,
+      "explanation": "Git records change history and supports collaboration between developers."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "Which principle is central to DevOps culture?",
+      "options": [
+        "Working in isolation",
+        "Manual deployments",
+        "Collaboration between development and operations",
+        "Avoiding automation"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps promotes collaboration between teams to deliver software faster and more reliably."
+    }
+  ]
+  

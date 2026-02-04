@@ -1,0 +1,264 @@
+[
+    {
+      "id": "Q1",
+      "topic": "Continuous Integration",
+      "question": "What is the main goal of Continuous Integration?",
+      "options": [
+        "Deploy code automatically to production",
+        "Frequently merge code changes into a shared repository",
+        "Eliminate testing",
+        "Remove the need for branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous Integration focuses on regularly integrating code so problems are detected early."
+    },
+    {
+      "id": "Q2",
+      "topic": "Version Control",
+      "question": "Which of the following is a benefit of using Git?",
+      "options": [
+        "It deletes old versions automatically",
+        "It tracks changes and enables collaboration",
+        "It prevents bugs entirely",
+        "It only works online"
+      ],
+      "answerIndex": 1,
+      "explanation": "Git records change history and supports collaboration between developers."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "Which principle is central to DevOps culture?",
+      "options": [
+        "Working in isolation",
+        "Manual deployments",
+        "Collaboration between development and operations",
+        "Avoiding automation"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps promotes collaboration between teams to deliver software faster and more reliably."
+    }
+  ,
+{
+  "id": "Q4",
+  "topic": "Continuous Integration",
+  "question": "Which activity typically happens first in a CI pipeline?",
+  "options": [
+    "Deploy to production",
+    "Run automated tests",
+    "Commit code to the repository",
+    "Notify customers"
+  ],
+  "answerIndex": 2,
+  "explanation": "CI starts when developers commit code changes to a shared repository."
+},
+{
+  "id": "Q5",
+  "topic": "Continuous Integration",
+  "question": "Why are automated tests important in CI?",
+  "options": [
+    "They replace developers",
+    "They slow down development",
+    "They quickly detect defects",
+    "They remove documentation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Automated tests catch errors early and keep the codebase stable."
+},
+{
+  "id": "Q6",
+  "topic": "Version Control",
+  "question": "What is a Git branch mainly used for?",
+  "options": [
+    "Deleting files",
+    "Trying new features safely",
+    "Backing up computers",
+    "Sharing passwords"
+  ],
+  "answerIndex": 1,
+  "explanation": "Branches allow developers to work on features without affecting the main codebase."
+},
+{
+  "id": "Q7",
+  "topic": "Version Control",
+  "question": "What does git pull do?",
+  "options": [
+    "Uploads commits to GitHub",
+    "Deletes the repository",
+    "Fetches and merges changes from a remote repository",
+    "Creates a new branch"
+  ],
+  "answerIndex": 2,
+  "explanation": "git pull downloads changes and merges them into your current branch."
+},
+{
+  "id": "Q8",
+  "topic": "Version Control",
+  "question": "Which command creates a new branch and switches to it?",
+  "options": [
+    "git merge",
+    "git checkout -b",
+    "git commit",
+    "git push"
+  ],
+  "answerIndex": 1,
+  "explanation": "git checkout -b both creates and switches to a new branch."
+},
+{
+  "id": "Q9",
+  "topic": "Plan with DevOps",
+  "question": "What is the main purpose of planning in DevOps?",
+  "options": [
+    "Delay releases",
+    "Align teams and goals",
+    "Avoid automation",
+    "Reduce collaboration"
+  ],
+  "answerIndex": 1,
+  "explanation": "Planning ensures everyone is aligned on goals, priorities, and delivery timelines."
+},
+{
+  "id": "Q10",
+  "topic": "Plan with DevOps",
+  "question": "Which tool is commonly used for tracking DevOps work items?",
+  "options": [
+    "Spreadsheets only",
+    "Issue trackers like Jira",
+    "Email threads",
+    "Word documents"
+  ],
+  "answerIndex": 1,
+  "explanation": "Issue trackers help teams plan, assign, and track work."
+},
+{
+  "id": "Q11",
+  "topic": "Continuous Integration",
+  "question": "What happens when a CI build fails?",
+  "options": [
+    "The failure is ignored",
+    "Developers are notified to fix it",
+    "The project is deleted",
+    "Deployment continues anyway"
+  ],
+  "answerIndex": 1,
+  "explanation": "Teams are alerted so they can quickly fix the problem."
+}
+,
+{
+  "id": "Q12",
+  "topic": "Continuous Delivery",
+  "question": "What does Continuous Delivery ensure?",
+  "options": [
+    "Code is always in a deployable state",
+    "Every change is deployed automatically",
+    "Testing is skipped",
+    "No releases are needed"
+  ],
+  "answerIndex": 0,
+  "explanation": "Continuous Delivery keeps software ready for release at any time."
+},
+{
+  "id": "Q13",
+  "topic": "Continuous Deployment",
+  "question": "How is Continuous Deployment different from Continuous Delivery?",
+  "options": [
+    "It requires manual approval before release",
+    "It automatically deploys every successful change",
+    "It stops testing",
+    "It only works locally"
+  ],
+  "answerIndex": 1,
+  "explanation": "Continuous Deployment releases every successful change automatically."
+},
+{
+  "id": "Q14",
+  "topic": "Infrastructure as Code",
+  "question": "What is Infrastructure as Code (IaC)?",
+  "options": [
+    "Manually configuring servers",
+    "Managing infrastructure using code and automation",
+    "Only using virtual machines",
+    "Writing application logic"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC manages infrastructure through machine-readable configuration files."
+},
+{
+  "id": "Q15",
+  "topic": "Infrastructure as Code",
+  "question": "Which tool is commonly used for Infrastructure as Code?",
+  "options": [
+    "Terraform",
+    "Photoshop",
+    "Excel",
+    "Slack"
+  ],
+  "answerIndex": 0,
+  "explanation": "Terraform is widely used for Infrastructure as Code."
+},
+{
+  "id": "Q16",
+  "topic": "Continuous Delivery",
+  "question": "Which practice reduces risk when releasing frequently?",
+  "options": [
+    "Big-bang deployments",
+    "Manual configuration",
+    "Small incremental changes",
+    "Avoiding automation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Small, incremental releases are safer and easier to roll back."
+},
+{
+  "id": "Q17",
+  "topic": "DevOps Culture",
+  "question": "Which metric focuses on speed and stability in DevOps?",
+  "options": [
+    "Lines of code written",
+    "Deployment frequency",
+    "Number of meetings",
+    "Server uptime only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Deployment frequency is a key DevOps performance indicator."
+},
+{
+  "id": "Q18",
+  "topic": "Infrastructure as Code",
+  "question": "What is the benefit of versioning infrastructure definitions?",
+  "options": [
+    "They cannot be changed",
+    "They allow rollback and auditing",
+    "They slow deployments",
+    "They remove automation"
+  ],
+  "answerIndex": 1,
+  "explanation": "Versioning enables traceability and rollback of infrastructure changes."
+},
+{
+  "id": "Q19",
+  "topic": "Continuous Deployment",
+  "question": "What usually triggers an automatic deployment?",
+  "options": [
+    "A successful CI pipeline",
+    "A manual email request",
+    "A calendar event",
+    "User feedback"
+  ],
+  "answerIndex": 0,
+  "explanation": "Successful automated tests typically trigger deployments."
+},
+{
+  "id": "Q20",
+  "topic": "Plan with DevOps",
+  "question": "Why is work broken into small tasks in DevOps planning?",
+  "options": [
+    "To slow teams down",
+    "To hide progress",
+    "To improve visibility and delivery speed",
+    "To avoid testing"
+  ],
+  "answerIndex": 2,
+  "explanation": "Smaller tasks improve transparency and faster delivery."
+}
+]

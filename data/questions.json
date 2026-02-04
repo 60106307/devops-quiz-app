@@ -143,3 +143,122 @@
   "answerIndex": 1,
   "explanation": "Teams are alerted so they can quickly fix the problem."
 }
+,
+{
+  "id": "Q12",
+  "topic": "Continuous Delivery",
+  "question": "What does Continuous Delivery ensure?",
+  "options": [
+    "Code is always in a deployable state",
+    "Every change is deployed automatically",
+    "Testing is skipped",
+    "No releases are needed"
+  ],
+  "answerIndex": 0,
+  "explanation": "Continuous Delivery keeps software ready for release at any time."
+},
+{
+  "id": "Q13",
+  "topic": "Continuous Deployment",
+  "question": "How is Continuous Deployment different from Continuous Delivery?",
+  "options": [
+    "It requires manual approval before release",
+    "It automatically deploys every successful change",
+    "It stops testing",
+    "It only works locally"
+  ],
+  "answerIndex": 1,
+  "explanation": "Continuous Deployment releases every successful change automatically."
+},
+{
+  "id": "Q14",
+  "topic": "Infrastructure as Code",
+  "question": "What is Infrastructure as Code (IaC)?",
+  "options": [
+    "Manually configuring servers",
+    "Managing infrastructure using code and automation",
+    "Only using virtual machines",
+    "Writing application logic"
+  ],
+  "answerIndex": 1,
+  "explanation": "IaC manages infrastructure through machine-readable configuration files."
+},
+{
+  "id": "Q15",
+  "topic": "Infrastructure as Code",
+  "question": "Which tool is commonly used for Infrastructure as Code?",
+  "options": [
+    "Terraform",
+    "Photoshop",
+    "Excel",
+    "Slack"
+  ],
+  "answerIndex": 0,
+  "explanation": "Terraform is widely used for Infrastructure as Code."
+},
+{
+  "id": "Q16",
+  "topic": "Continuous Delivery",
+  "question": "Which practice reduces risk when releasing frequently?",
+  "options": [
+    "Big-bang deployments",
+    "Manual configuration",
+    "Small incremental changes",
+    "Avoiding automation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Small, incremental releases are safer and easier to roll back."
+},
+{
+  "id": "Q17",
+  "topic": "DevOps Culture",
+  "question": "Which metric focuses on speed and stability in DevOps?",
+  "options": [
+    "Lines of code written",
+    "Deployment frequency",
+    "Number of meetings",
+    "Server uptime only"
+  ],
+  "answerIndex": 1,
+  "explanation": "Deployment frequency is a key DevOps performance indicator."
+},
+{
+  "id": "Q18",
+  "topic": "Infrastructure as Code",
+  "question": "What is the benefit of versioning infrastructure definitions?",
+  "options": [
+    "They cannot be changed",
+    "They allow rollback and auditing",
+    "They slow deployments",
+    "They remove automation"
+  ],
+  "answerIndex": 1,
+  "explanation": "Versioning enables traceability and rollback of infrastructure changes."
+},
+{
+  "id": "Q19",
+  "topic": "Continuous Deployment",
+  "question": "What usually triggers an automatic deployment?",
+  "options": [
+    "A successful CI pipeline",
+    "A manual email request",
+    "A calendar event",
+    "User feedback"
+  ],
+  "answerIndex": 0,
+  "explanation": "Successful automated tests typically trigger deployments."
+},
+{
+  "id": "Q20",
+  "topic": "Plan with DevOps",
+  "question": "Why is work broken into small tasks in DevOps planning?",
+  "options": [
+    "To slow teams down",
+    "To hide progress",
+    "To improve visibility and delivery speed",
+    "To avoid testing"
+  ],
+  "answerIndex": 2,
+  "explanation": "Smaller tasks improve transparency and faster delivery."
+}
+]

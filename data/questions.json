@@ -38,5 +38,108 @@
       "answerIndex": 2,
       "explanation": "DevOps promotes collaboration between teams to deliver software faster and more reliably."
     }
-  ]
-  
+  ,
+{
+  "id": "Q4",
+  "topic": "Continuous Integration",
+  "question": "Which activity typically happens first in a CI pipeline?",
+  "options": [
+    "Deploy to production",
+    "Run automated tests",
+    "Commit code to the repository",
+    "Notify customers"
+  ],
+  "answerIndex": 2,
+  "explanation": "CI starts when developers commit code changes to a shared repository."
+},
+{
+  "id": "Q5",
+  "topic": "Continuous Integration",
+  "question": "Why are automated tests important in CI?",
+  "options": [
+    "They replace developers",
+    "They slow down development",
+    "They quickly detect defects",
+    "They remove documentation"
+  ],
+  "answerIndex": 2,
+  "explanation": "Automated tests catch errors early and keep the codebase stable."
+},
+{
+  "id": "Q6",
+  "topic": "Version Control",
+  "question": "What is a Git branch mainly used for?",
+  "options": [
+    "Deleting files",
+    "Trying new features safely",
+    "Backing up computers",
+    "Sharing passwords"
+  ],
+  "answerIndex": 1,
+  "explanation": "Branches allow developers to work on features without affecting the main codebase."
+},
+{
+  "id": "Q7",
+  "topic": "Version Control",
+  "question": "What does git pull do?",
+  "options": [
+    "Uploads commits to GitHub",
+    "Deletes the repository",
+    "Fetches and merges changes from a remote repository",
+    "Creates a new branch"
+  ],
+  "answerIndex": 2,
+  "explanation": "git pull downloads changes and merges them into your current branch."
+},
+{
+  "id": "Q8",
+  "topic": "Version Control",
+  "question": "Which command creates a new branch and switches to it?",
+  "options": [
+    "git merge",
+    "git checkout -b",
+    "git commit",
+    "git push"
+  ],
+  "answerIndex": 1,
+  "explanation": "git checkout -b both creates and switches to a new branch."
+},
+{
+  "id": "Q9",
+  "topic": "Plan with DevOps",
+  "question": "What is the main purpose of planning in DevOps?",
+  "options": [
+    "Delay releases",
+    "Align teams and goals",
+    "Avoid automation",
+    "Reduce collaboration"
+  ],
+  "answerIndex": 1,
+  "explanation": "Planning ensures everyone is aligned on goals, priorities, and delivery timelines."
+},
+{
+  "id": "Q10",
+  "topic": "Plan with DevOps",
+  "question": "Which tool is commonly used for tracking DevOps work items?",
+  "options": [
+    "Spreadsheets only",
+    "Issue trackers like Jira",
+    "Email threads",
+    "Word documents"
+  ],
+  "answerIndex": 1,
+  "explanation": "Issue trackers help teams plan, assign, and track work."
+},
+{
+  "id": "Q11",
+  "topic": "Continuous Integration",
+  "question": "What happens when a CI build fails?",
+  "options": [
+    "The failure is ignored",
+    "Developers are notified to fix it",
+    "The project is deleted",
+    "Deployment continues anyway"
+  ],
+  "answerIndex": 1,
+  "explanation": "Teams are alerted so they can quickly fix the problem."
+}
